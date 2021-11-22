@@ -60,7 +60,7 @@ select{
 input[type="radio"],input[type="checkbox"]{
     width: 15px;
     vertical-align: middle;
-    margin: -2px;
+    margin: 5px;
     padding: -8px;
 
 }
