@@ -1,0 +1,82 @@
+/*@font-face {
+    font-family: roya;
+    src: url(../font/BRoya.woff) format(woff);
+}*/
+body{
+    font-family:tahoma;
+    font-weight: normal;
+    direction: rtl;
+    font-size: normal;
+}
+input,select,textarea{
+    font-family: inherit;
+    font-size: inherit;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+form{
+    height: 600px;
+    width: 660px;
+    border-radius:5px;
+    background-color: #eef;
+    margin: 10px auto;
+    box-shadow: 0 0 8px;
+}
+fieldset{
+    border-radius: 5px;
+    margin:10px 10px;
+    padding: 10px;
+    border-color: black;
+}
+label{
+    width: 110px;
+    font-size: 14px;
+    display: inline-block;
+}
+label.check,label.radio{
+    width: 35px;
+}
+input{
+    width: 180px;
+}
+legend{
+    padding: 15px;
+    font-weight: bold;
+}
+input[type="submit"],input[type="reset"]{
+    width: 80px;
+    background-image: linear-gradient(#ccf,#aad);
+    text-align: center;
+    margin: 8px;
+    border: 1px solid gray;
+    padding: 6px;
+    }
+select{
+    width: 132px;
+    margin: 8px;
+}
+input[type="radio"],input[type="checkbox"]{
+    width: 15px;
+    vertical-align: middle;
+    margin: -2px;
+    padding: -8px;
+
+}
+textarea{
+    width: 400px;
+    margin: 8px;
+    box-shadow: 5px lightgrey inset;
+    height: 100px;
+    vertical-align: middle;
+    border-radius: 5px;
+    resize: none;
+}
+.button:first-of-type{
+    margin-right: 225px;
+}
+.button:hover{
+    background-image: linear-gradient(#eec,#88b);
+}
+
