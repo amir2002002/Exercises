@@ -1,0 +1,74 @@
+@font-face {
+    font-family: roya;
+    src: url(../Font/BRoya.woff)format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: roya;
+    src: url(../Font/BRoyaBold.woff)format(woff);
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+margin: 0;
+padding: 0;
+border: 0;
+list-style: none;
+}
+input,select,textarea{
+font-size: inherit;
+font-family: inherit;
+}
+body{
+font-size: 20px;
+font-family: roya;
+direction: rtl;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+#nav li{
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+}
+#nav li:hover{
+    background-color: rebeccapurple;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 0;
+}
+#topmenu{
+background-color: black;
+height: 100px;
+}
+#header{
+background-color: #5ad;
+}
+#search{
+    float: right;
+    width: 800px;
+    color: white;
+}
+#search h1{
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    padding: 18px;
+}
+#main{
+    background-color: white;
+    height: 500px;
+}
+#footer{
+background-color: #002;
+height: 200px;
+}
